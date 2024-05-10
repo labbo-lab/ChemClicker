@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: arial;
+}
+
+body {
+  margin: 0;
+}
+
+#clickable {
+  width: 50vmin;
+  height: 50vmin;
+  margin-left: calc(35vmin/2);
+  background: red;
+}
+
+#upgradeBox {
+  position: absolute;
+  background: lightgray;
+  height: 100vh;
+  width: 20vw;
+  top: 0;
+  right: 0;
+  overflow: scroll;
+}
+
+.upgrade {
+  display: flex;
+  width: 20vw;
+  height: 12vh;
+  background: gray;
+  align-items: center;
+}
+
+.upgrade:hover {
+  background: darkgray;
+}
+
+.upgradeText {
+  height: auto;
+  width: 100%;
+  overflow: clip;
+  font-size: 2.2vh;
+  text-align: center;
+}
+
+.upgradeImg {
+  width: 12vh;
+  height: 12vh;
+}
+
+.upgradeTitle {
+  font-weight: bold;
+}
+
+.upgradeDesc {
+  font-size: 75%;
+}
+
